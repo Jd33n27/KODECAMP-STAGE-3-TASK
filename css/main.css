@@ -51,12 +51,28 @@ select {
   outline: none;
   background-color: transparent;
   font-weight: 500;
+  appearance: none; /* Removes default dropdown arrow */
+  -webkit-appearance: none; /* For Safari */
+  -moz-appearance: none; /* For Firefox */
   font-size: 2rem;
+  background-image: url("../assets/angle-down-solid.svg");
+  background-repeat: no-repeat;
+  background-size: 1.6rem;
 }
 
-option {
-  height: 4rem;
-  width: 4rem;
+#features {
+  width: 13rem;
+  background-position: left 8.4rem center;
+}
+
+#features option,
+#how-it-works option {
+  font-size: 1.2rem;
+}
+
+#how-it-works {
+  width: 16rem;
+  background-position: left 12.4rem center;
 }
 
 .nav-bar-list a {
