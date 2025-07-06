@@ -12,6 +12,7 @@
   --main-lightGreen: #cbffd0;
   --main-grey: #a6a6a6;
   --main-white: #ffffff;
+  --main-black: #000000;
 }
 
 * {
@@ -33,11 +34,6 @@ header {
   justify-content: space-between;
 }
 
-.nav-bar-section {
-  font-weight: 500;
-  font-size: 1.5rem;
-}
-
 .nav-bar-list {
   margin: 2rem 0;
   display: flex;
@@ -52,4 +48,13 @@ select {
   border: none;
   outline: none;
   background-color: transparent;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.nav-bar-list a {
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--main-black);
 }
