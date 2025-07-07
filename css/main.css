@@ -117,24 +117,24 @@ select {
   margin: 4rem 0 0 2rem;
 }
 
-.txt-area {
+.hero-section-txt-area {
   /* padding: 0 3rem 0 2rem; */
   max-width: 57.5rem;
   text-align: start;
 }
 
-.txt-area h1 {
+.hero-section-txt-area h1 {
   font-weight: 800;
   font-size: 4.06rem;
 }
 
-.txt-area h3 {
+.hero-section-txt-area h3 {
   font-weight: 600;
   font-size: 2rem;
   padding-right: 15rem;
 }
 
-.img-area {
+.hero-section-img-area {
   background-color: var(--main-lightGreen);
   border: none;
   border-radius: 20rem 0 0 0;
@@ -148,7 +148,7 @@ select {
   align-items: center;
 }
 
-.img-area img {
+.hero-section-img-area img {
   margin: 2rem 20rem 0 0;
 }
 
