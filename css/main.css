@@ -161,6 +161,10 @@ select {
   max-width: 30rem;
 }
 
+.download-btns a {
+  text-decoration: none;
+}
+
 .download-btn {
   display: flex;
   flex-direction: row;
