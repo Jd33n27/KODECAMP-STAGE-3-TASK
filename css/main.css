@@ -114,12 +114,12 @@ select {
   justify-content: space-between;
   align-items: center;
   gap: 20rem;
-  margin-top: 4rem;
+  margin: 4rem 0 0 2rem;
 }
 
 .txt-area {
-  margin: 0 2rem;
-  padding: 0 3rem 0 2rem;
+  /* padding: 0 3rem 0 2rem; */
+  max-width: 57.5rem;
   text-align: start;
 }
 
@@ -158,18 +158,35 @@ select {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 5rem 0;
-  max-width: 52rem;
+  max-width: 30rem;
 }
 
 .download-btn {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
   background-color: var(--main-black);
-  border: 0.2rem solid var(--main-grey);
+  border: 0.1rem solid var(--main-grey);
   color: var(--main-white);
-  border-radius: 1.25rem;
+  border-radius: 0.65rem;
+  text-align: start;
+  max-height: 4.375rem;
+  padding: 0.5rem;
+}
+
+.download-btn p {
   font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.download-btn strong {
   font-size: 1.5rem;
-  text-align: center;
+}
+
+.download-btn img {
+  max-width: 2.5rem;
+  max-height: 2.5rem;
 }
