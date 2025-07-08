@@ -200,7 +200,7 @@ select {
   background-color: var(--main-white);
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* align-items: center; */
   max-height: 100dvh;
   box-shadow: 1rem 0 1rem 0 var(--main-transBlack);
 }
@@ -210,7 +210,7 @@ select {
   border: none;
   border-radius: 0 0 20rem 0;
   padding-right: 2rem;
-  max-width: 100rem;
+  max-width: 25rem;
   height: 80dvh;
   display: flex;
   flex-wrap: wrap;
@@ -221,12 +221,24 @@ select {
 .features-img-area img {
   position: relative;
   top: 1.6rem;
+  left: 5rem;
+}
+
+.features-txt-area {
+  margin: 0 auto;
+}
+
+.features-txt-area h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 4rem 0 3rem 0;
 }
 
 .features-info-area {
   display: grid;
   grid-template-columns: auto auto;
   gap: 8rem;
+  margin: 6rem 0;
 }
 
 .box {
