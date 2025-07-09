@@ -424,7 +424,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 1.5dvh;
+    gap: 2dvh;
     margin: 0 0.85rem 0 0;
   }
 
