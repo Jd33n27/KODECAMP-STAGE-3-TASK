@@ -121,12 +121,7 @@ nav {
 }
 
 .signUp {
-  background-color: var(--main-darkGreen);
   margin-right: 1rem;
-}
-
-.logIn {
-  background-color: var(--main-lightGreen);
 }
 
 .hero-section {
@@ -154,7 +149,6 @@ nav {
 }
 
 .hero-section-img-area {
-  background-color: var(--main-lightGreen);
   border: none;
   border-radius: 20rem 0 0 0;
   margin: 4rem 0 0 0;
@@ -221,14 +215,13 @@ nav {
   background-color: var(--main-white);
   display: flex;
   flex-direction: row;
-  max-height: 100dvh;
+  height: 90dvh;
   box-shadow: 0 0 0.2rem 0.2rem var(--main-transBlack);
   overflow-x: hidden;
   justify-content: space-between;
 }
 
 .features-img-bg {
-  background-color: var(--main-darkGreen);
   border: none;
   border-radius: 0 0 20rem 0;
   padding-right: 1rem;
@@ -306,7 +299,7 @@ nav {
 #how-it-works {
   display: flex;
   flex-direction: column;
-  max-height: 100dvh;
+  height: 80dvh;
   overflow-x: hidden;
   justify-content: space-between;
 }
@@ -354,28 +347,25 @@ nav {
 }
 
 .how-it-works-img-container {
-  display: grid;
+  display: flex;
+  flex-direction: row;
   place-items: center;
+  justify-content: bottom;
+  margin: 0 auto;
+  position: relative;
+  background-size: contain;
 }
 
 .how-it-works-img-bg {
-  max-width: 40rem;
-  max-height: 15rem;
+  width: 40rem;
+  height: 15rem;
   border-radius: 6rem 6rem 0 0;
-}
-
-.how-it-works-img-bg div {
-  max-width: 40rem;
-  max-height: 15rem;
-  border-radius: 6rem 6rem 0 0;
-  overflow-y: hidden;
 }
 
 .how-it-works-img-bg img {
-  width: 30rem;
-  height: 40rem;
-  position: relative;
-  bottom: 7rem;
+  position: absolute;
+  width: 80%;
+  left: 10rem;
 }
 
 /* ////////////////////////////////////// */
@@ -466,12 +456,7 @@ nav {
   }
 
   .signUp {
-    background-color: var(--main-darkGreen);
     margin-right: 1rem;
-  }
-
-  .logIn {
-    background-color: var(--main-lightGreen);
   }
 
   .hero-section {
@@ -499,7 +484,6 @@ nav {
   }
 
   .hero-section-img-area {
-    background-color: var(--main-lightGreen);
     border: none;
     border-radius: 20rem 0 0 0;
     margin: 3rem 0 0 0;
@@ -573,7 +557,6 @@ nav {
   }
 
   .features-img-bg {
-    background-color: var(--main-darkGreen);
     border: none;
     border-radius: 0 0 20rem 0;
     padding-right: 1rem;
@@ -640,15 +623,9 @@ nav {
     height: 4rem;
   }
 
-  .dark-green {
-    background-color: var(--main-darkGreen);
-  }
+  /* WORK IN PROGRESS */
 
-  .light-green {
-    background-color: var(--main-lightGreen);
-  }
-
-  #how-it-works {
+  /* #how-it-works {
     display: flex;
     flex-direction: column;
     max-height: 100dvh;
@@ -725,7 +702,7 @@ nav {
     height: 40rem;
     position: relative;
     bottom: 7rem;
-  }
+    } */
 }
 
 /* ////////////////////////////////////// */
@@ -815,12 +792,7 @@ nav {
   }
 
   .signUp {
-    background-color: var(--main-darkGreen);
     margin-right: 1.5rem;
-  }
-
-  .logIn {
-    background-color: var(--main-lightGreen);
   }
 
   .hero-section {
@@ -848,7 +820,6 @@ nav {
   }
 
   .hero-section-img-area {
-    background-color: var(--main-lightGreen);
     border: none;
     border-radius: 20rem 0 0 0;
     margin: 5.5rem 0 0 0;
@@ -922,7 +893,6 @@ nav {
   }
 
   .features-img-bg {
-    background-color: var(--main-darkGreen);
     border: none;
     border-radius: 0 0 20rem 0;
     padding-right: 1rem;
@@ -989,15 +959,9 @@ nav {
     height: 6rem;
   }
 
-  .dark-green {
-    background-color: var(--main-darkGreen);
-  }
+  /* WORK IN PROGRESS */
 
-  .light-green {
-    background-color: var(--main-lightGreen);
-  }
-
-  #how-it-works {
+  /* #how-it-works {
     display: flex;
     flex-direction: column;
     max-height: 100dvh;
@@ -1054,6 +1018,7 @@ nav {
   .how-it-works-img-container {
     display: grid;
     place-items: center;
+    position: relative;
   }
 
   .how-it-works-img-bg {
@@ -1062,17 +1027,9 @@ nav {
     border-radius: 6rem 6rem 0 0;
   }
 
-  .how-it-works-img-bg div {
-    max-width: 40rem;
-    max-height: 15rem;
-    border-radius: 6rem 6rem 0 0;
-    overflow-y: hidden;
-  }
-
   .how-it-works-img-bg img {
-    width: 30rem;
-    height: 40rem;
-    position: relative;
+    width: 20%;
+    position: absolute;
     bottom: 7rem;
-  }
+    } */
 }
