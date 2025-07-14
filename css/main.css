@@ -448,6 +448,61 @@ nav {
   flex-direction: column;
   padding: 0 1rem;
 }
+
+#faqs {
+  display: flex;
+  flex-direction: column;
+  height: 90dvh;
+  box-shadow: 0 0 0.2rem 0.2rem var(--main-transBlack);
+  overflow-x: hidden;
+}
+
+.faqs-top-left {
+  width: 23rem;
+  height: 45rem;
+  border-radius: 0 0 30rem 0;
+  position: absolute;
+}
+
+.faqs-txt-area {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.faqs-title {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.faqs-list-area {
+  padding: 1.5rem;
+  border-radius: 2rem;
+}
+
+.faqs-list-area ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.faqs-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.faqs-list img {
+  width: 10%;
+}
 /* ////////////////////////////////////// */
 /*////// FOR 1060PX WIDTH DEVICES ////// */
 /*///////////////////////////////////// */
