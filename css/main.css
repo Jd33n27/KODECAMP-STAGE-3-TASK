@@ -216,7 +216,7 @@ nav {
   display: flex;
   flex-direction: row;
   height: 90dvh;
-  box-shadow: 0 0 0.2rem 0.2rem var(--main-transBlack);
+  box-shadow: 0 0 1rem 1rem var(--main-transBlack);
   overflow-x: hidden;
   justify-content: space-between;
 }
@@ -371,7 +371,7 @@ nav {
   background-color: var(--main-white);
   display: flex;
   flex-direction: column;
-  box-shadow: 0 0 0.2rem 0.2rem var(--main-transBlack);
+  box-shadow: 0 0 1rem 1rem var(--main-transBlack);
   justify-content: space-between;
   position: relative;
 }
@@ -453,7 +453,6 @@ nav {
   display: flex;
   flex-direction: column;
   height: 90dvh;
-  box-shadow: 0 0 0.2rem 0.2rem var(--main-transBlack);
   overflow-x: hidden;
 }
 
@@ -462,6 +461,7 @@ nav {
   height: 45rem;
   border-radius: 0 0 30rem 0;
   position: absolute;
+  z-index: -1;
 }
 
 .faqs-txt-area {
@@ -503,11 +503,72 @@ nav {
 .faqs-list img {
   width: 10%;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90dvh;
+  box-shadow: 0 0 1rem 1rem var(--main-transBlack);
+  overflow-x: hidden;
+}
+
+.footer-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  color: var(--main-white);
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.social-logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+}
+
+.footer-download-btns {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: center;
+}
+
+.contact-support a {
+  display: flex;
+  flex-direction: rowa;
+  color: var(--main-white);
+  font-weight: 500;
+  font-size: 2.5rem;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.footer-txt-area {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 100rem;
+}
+
+.footer-txt-area a {
+  color: var(--main-white);
+  font-weight: 500;
+  font-size: 3rem;
+}
 /* ////////////////////////////////////// */
 /*////// FOR 1060PX WIDTH DEVICES ////// */
 /*///////////////////////////////////// */
 
-@media (min-width: 1060px) {
+/* @media (min-width: 1060px) {
   .logo {
     max-width: 10rem;
   }
@@ -541,9 +602,9 @@ nav {
     background-color: transparent;
     font-weight: 700;
     font-size: 1.2rem;
-    appearance: none; /* Removes default dropdown arrow */
-    -webkit-appearance: none; /* For Safari */
-    -moz-appearance: none; /*  For Firefox */
+    appearance: none; Removes default dropdown arrow
+    -webkit-appearance: none; For Safari
+    -moz-appearance: none;  For Firefox
     background-image: url("../assets/angle-down-solid.svg");
     background-repeat: no-repeat;
     background-size: 1.2rem;
@@ -756,11 +817,11 @@ nav {
   .box img {
     width: 4rem;
     height: 4rem;
-  }
+  } */
 
-  /* WORK IN PROGRESS */
+/* WORK IN PROGRESS */
 
-  /* #how-it-works {
+/* #how-it-works {
     display: flex;
     flex-direction: column;
     max-height: 100dvh;
@@ -837,13 +898,13 @@ nav {
     height: 40rem;
     position: relative;
     bottom: 7rem;
-    } */
-}
+  }
+  } */
 
 /* ////////////////////////////////////// */
 /*////// FOR 1440PX WIDTH DEVICES ////// */
 /*///////////////////////////////////// */
-@media (min-width: 1440px) {
+/* @media (min-width: 1440px) {
   .logo {
     max-width: 15rem;
   }
@@ -877,9 +938,9 @@ nav {
     background-color: transparent;
     font-weight: 700;
     font-size: 2rem;
-    appearance: none; /* Removes default dropdown arrow */
-    -webkit-appearance: none; /* For Safari */
-    -moz-appearance: none; /*  For Firefox */
+    appearance: none; Removes default dropdown arrow
+    -webkit-appearance: none; For Safari
+    -moz-appearance: none;  For Firefox
     background-image: url("../assets/angle-down-solid.svg");
     background-repeat: no-repeat;
     background-size: 2rem;
@@ -1092,11 +1153,11 @@ nav {
   .box img {
     width: 6rem;
     height: 6rem;
-  }
+  } */
 
-  /* WORK IN PROGRESS */
+/* WORK IN PROGRESS */
 
-  /* #how-it-works {
+/* #how-it-works {
     display: flex;
     flex-direction: column;
     max-height: 100dvh;
@@ -1166,5 +1227,5 @@ nav {
     width: 20%;
     position: absolute;
     bottom: 7rem;
-    } */
-}
+  }
+  } */
