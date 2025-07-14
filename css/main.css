@@ -299,9 +299,6 @@ nav {
 #how-it-works {
   display: flex;
   flex-direction: column;
-  height: 80dvh;
-  overflow-x: hidden;
-  justify-content: space-between;
 }
 
 .how-it-works-txt-area {
@@ -311,7 +308,7 @@ nav {
   font-weight: 700;
   font-size: 2rem;
   text-align: center;
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 0 0;
 }
 
 .how-it-works-info {
@@ -352,20 +349,23 @@ nav {
   place-items: center;
   justify-content: bottom;
   margin: 0 auto;
-  position: relative;
-  background-size: contain;
+  overflow: hidden;
+  height: 25rem;
+  padding: 4.7rem 0 0 0;
 }
 
 .how-it-works-img-bg {
   width: 40rem;
-  height: 15rem;
+  height: 20rem;
   border-radius: 6rem 6rem 0 0;
+  position: relative;
 }
 
 .how-it-works-img-bg img {
   position: absolute;
-  width: 80%;
+  width: 75%;
   left: 10rem;
+  top: -3rem;
 }
 
 /* ////////////////////////////////////// */
