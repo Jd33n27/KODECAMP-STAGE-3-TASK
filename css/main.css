@@ -904,7 +904,7 @@ footer {
 /* ////////////////////////////////////// */
 /*////// FOR 1440PX WIDTH DEVICES ////// */
 /*///////////////////////////////////// */
-/* @media (min-width: 1440px) {
+@media (min-width: 1440px) {
   .logo {
     max-width: 15rem;
   }
@@ -938,9 +938,9 @@ footer {
     background-color: transparent;
     font-weight: 700;
     font-size: 2rem;
-    appearance: none; Removes default dropdown arrow
-    -webkit-appearance: none; For Safari
-    -moz-appearance: none;  For Firefox
+    appearance: none; /* Removes default dropdown arrow */
+    -webkit-appearance: none; /* For Safari */
+    -moz-appearance: none; /* For Firefox */
     background-image: url("../assets/angle-down-solid.svg");
     background-repeat: no-repeat;
     background-size: 2rem;
@@ -1153,11 +1153,11 @@ footer {
   .box img {
     width: 6rem;
     height: 6rem;
-  } */
+  }
 
-/* WORK IN PROGRESS */
+  /* WORK IN PROGRESS */
 
-/* #how-it-works {
+  /* #how-it-works {
     display: flex;
     flex-direction: column;
     max-height: 100dvh;
@@ -1227,5 +1227,5 @@ footer {
     width: 20%;
     position: absolute;
     bottom: 7rem;
-  }
-  } */
+    } */
+}
